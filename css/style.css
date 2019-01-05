@@ -1,0 +1,148 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* navbar */
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* fixed header and the text within it */
+.header {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/img2.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-text {
+  position: relative;
+  top: 30%;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* setting up a vertical line */
+
+.vertical-line-right {
+  border-right: 2px solid orange;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 70px;
+}
+
+.vertical-line-left {
+  border-left: 2px solid orange;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 70px;
+}
+
+/* The who we are part below the header */
+
+.who-we-are h1 {
+  font-size: 50px;
+}
+.who-we-are p {
+  font-size: 30px;
+}
+
+/* The jumbotron */
+.jumbotron-p {
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+
+.jumbotron-col p {
+  font-size: 20px;
+}
+
+/* What we do */
+.what-we-do-p {
+  font-size: 30px;
+}
+
+.what-we-do-i {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+/* Portfolio */
+.our-works-button {
+  margin-top: 10px;
+}
+.our-works-jumbotron {
+  margin-top: 20px;
+}
+.our-works h1 {
+  margin-top: 20px;
+}
+
+/* Testimonials */
+.testimony-user-i {
+  margin-bottom: 15px;
+}
+
+.carousel-indicators li {
+  position: relative;
+  top: 35px;
+  background-color: black;
+}
+
+.carousel-indicators li.active {
+  background-color: orange;
+}
+.testimony {
+  font-size: 25px;
+}
+/* Contact */
+.contact-jumbotron {
+  margin-top: 50px;
+  margin-bottom: 0 !important;
+}
+
+.contact-message h1 {
+  font-size: 45px;
+}
+
+.contact-message p {
+  font-size: 25px;
+}
+.contact-information h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #707070;
+  position: relative;
+  height: 50px;
+  bottom: 0;
+  color: white;
+  margin-top: 0;
+}
+footer i {
+  color: red;
+}
+footer p {
+  position: relative;
+  top: 20px;
+  padding: 0;
+  margin-bottom: 0;
+}
