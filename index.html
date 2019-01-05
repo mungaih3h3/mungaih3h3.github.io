@@ -26,6 +26,12 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+
     <title>Jesilog</title>
   </head>
   <body>
@@ -47,19 +53,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="#home"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact us</a></li>
         </ul>
       </div>
     </nav>
     <!-- The fixed background image in the header with some extra text and a button -->
-    <div class="header">
+    <div class="header" id="home">
       <div class="container text-center header-text">
         <h1>A Construction and Safety Management</h1>
         <p>
@@ -78,7 +84,7 @@
     </div>
 
     <!-- The who we are part -->
-    <div class="container text-center who-we-are">
+    <div class="container text-center who-we-are" id="about">
       <h1>Who we are</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, enim
@@ -98,7 +104,7 @@
     <!-- The why choose us part -->
 
     <div class="jumbotron">
-      <div class="container-fluid text-center">
+      <div class="container-fluid text-center" id="why">
         <h1 class="display-4">Why choose us</h1>
         <p class="lead jumbotron-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
@@ -107,7 +113,7 @@
           quaerat.
         </p>
         <div class="row">
-          <div class="col-md-6 jumbotron-col lead">
+          <div class="col-md-6 jumbotron-col lead" id="left-why">
             <i class="far fa-calendar-check fa-7x"></i>
             <h2>Always on Time</h2>
             <p>
@@ -117,7 +123,7 @@
               doloremque, voluptatum maxime dolore vel eveniet.
             </p>
           </div>
-          <div class="col-md-6 jumbotron-col lead">
+          <div class="col-md-6 jumbotron-col lead" id="right-why">
             <i class="far fa-handshake fa-7x"></i>
             <h2>Qualified and Experienced Staff</h2>
             <p>
@@ -132,7 +138,7 @@
     </div>
 
     <!-- The what we do part -->
-    <div class="container text-center">
+    <div class="container text-center" id="services">
       <h1 class="lead display-4">What we do</h1>
       <p class="lead what-we-do-p">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
@@ -176,17 +182,17 @@
     </div>
 
     <!-- The showcase part -->
-    <div class="jumbotron our-works-jumbotron">
+    <div class="jumbotron our-works-jumbotron" id="portfolio">
       <div class="container text-center our-works">
         <h1 class="lead display-4">Our Works</h1>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" id="left-showcase">
             <img src="./img/img2.jpeg" class="img-thumbnail" alt="" />
           </div>
           <div class="col-md-4">
             <img src="./img/img2.jpeg" class="img-thumbnail" alt="" />
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" id="right-showcase">
             <img src="./img/img2.jpeg" class="img-thumbnail" alt="" />
           </div>
         </div>
@@ -239,13 +245,13 @@
     </div>
 
     <!-- Contact us -->
-    <div class="jumbotron contact-jumbotron">
+    <div class="jumbotron contact-jumbotron" id="contact">
         <div class="container text-center lead contact-message">
             <h1>Contact us today!</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ducimus laborum eius. Sit dicta sint, animi, odit consequatur perspiciatis quisquam, ex ipsa veritatis laudantium ut magni aliquid nobis vitae. Accusantium.</p>
         <hr>
         </div>
-            <div class="container">
+            <div class="container" id="contact-stuff">
                 <div class="row">
                     <div class="col-md-6">
                             <form>
@@ -310,5 +316,6 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
