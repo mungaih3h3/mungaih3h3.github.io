@@ -127,6 +127,12 @@ p {
   text-transform: uppercase;
   font-size: 20px;
 }
+.contact-information-h2 {
+  margin-top: 20px;
+}
+.contact-submit {
+  margin-bottom: 20px;
+}
 
 /* Footer */
 footer {
