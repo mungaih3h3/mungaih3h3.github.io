@@ -29,14 +29,17 @@ ScrollReveal().reveal("#services", {
 });
 ScrollReveal().reveal("#left-showcase", {
   delay: 500,
-  origin: "left",
-  distance: "500px",
+  scale: 0.7,
   mobile: false
 });
 ScrollReveal().reveal("#right-showcase", {
   delay: 500,
-  origin: "right",
-  distance: "500px",
+  scale: 0.7,
+  mobile: false
+});
+ScrollReveal().reveal("#center-showcase", {
+  delay: 800,
+  scale: 0.7,
   mobile: false
 });
 ScrollReveal().reveal("#contact-stuff", {
